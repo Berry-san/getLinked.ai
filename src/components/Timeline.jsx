@@ -164,38 +164,108 @@ const Timeline = () => {
 
       <ol className="relative border-l-4 border-gray-200 dark:border-gray-700 mx-36">
         <li className="mb-10 ml-10">
-          <span className="absolute flex items-center justify-center w-12 h-12 bg-blue-100 rounded-full -left-6 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+          <span className="absolute flex items-center text-white justify-center w-12 h-12 bg-gradient-to-l from-purple-600 to-fuchsia-500 rounded-full -left-6 ring-8 ring-transparent ">
             1
           </span>
-          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Flowbite Application UI v2.0.0{' '}
-            <span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ml-3">
-              Latest
-            </span>
+          <h3 className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            Hackathon Announcement
           </h3>
-          <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Released on January 13th, 2022
-          </time>
-          <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            Get access to over 20+ pages including a dashboard layout, charts,
-            kanban board, calendar, and pre-order E-commerce & Marketing pages.
+
+          <p className="mb-4 text-white text-sm font-normal font-['Montserrat'] leading-normal">
+            The getlinked tech hackathon 1.0 is formally announced
+            <br />
+            to the general public and teams begin to get ready to register
           </p>
-          <a
-            href="#"
-            className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-          >
-            <svg
-              className="w-3.5 h-3.5 mr-2.5"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
-              <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
-            </svg>{' '}
-            Download ZIP
-          </a>
+
+          <div className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            November 18, 2023
+          </div>
+        </li>
+        <li className="mb-10 ml-10">
+          <span className="absolute flex items-center text-white justify-center w-12 h-12 bg-gradient-to-l from-purple-600 to-fuchsia-500 rounded-full -left-6 ring-8 ring-transparent ">
+            2
+          </span>
+          <h3 className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            Teams Registration begins
+          </h3>
+          <p className="text-white text-base font-normal font-['Montserrat'] leading-7">
+            Interested teams can now show their interest in the
+            <br />
+            getlinked tech hackathon 1.0 2023 by proceeding to register
+          </p>
+          <div className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            November 18, 2023
+          </div>
+        </li>
+        <li className="mb-10 ml-10">
+          <span className="absolute flex items-center text-white justify-center w-12 h-12 bg-gradient-to-l from-purple-600 to-fuchsia-500 rounded-full -left-6 ring-8 ring-transparent ">
+            3
+          </span>
+          <h3 className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            Teams Registration ends
+          </h3>
+          <p className="text-white text-base font-normal font-['Montserrat'] leading-7">
+            Interested Participants are no longer Allowed to
+            <br />
+            register
+          </p>
+          <div className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            November 18, 2023
+          </div>
+        </li>
+        <li className="mb-10 ml-10">
+          <span className="absolute flex items-center text-white justify-center w-12 h-12 bg-gradient-to-l from-purple-600 to-fuchsia-500 rounded-full -left-6 ring-8 ring-transparent ">
+            4
+          </span>
+          <h3 className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            Announcement of the accepted teams
+            <br />
+            and ideas
+          </h3>
+          <p className="text-white text-base font-normal font-['Montserrat'] leading-7">
+            All teams whom idea has been accepted into getlinked tech
+            <br />
+            hackathon 1.0 2023 are formally announced
+          </p>
+          <div className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            November 18, 2023
+          </div>
+        </li>
+        <li className="mb-10 ml-10">
+          <span className="absolute flex items-center text-white justify-center w-12 h-12 bg-gradient-to-l from-purple-600 to-fuchsia-500 rounded-full -left-6 ring-8 ring-transparent ">
+            5
+          </span>
+          <h3 className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            Announcement of the accepted teams
+            <br />
+            and ideas
+          </h3>
+          <p className="text-white text-base font-normal font-['Montserrat'] leading-7">
+            Interested Participants are no longer Allowed to
+            <br />
+            register
+          </p>
+          <div className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            November 18, 2023
+          </div>
+        </li>
+        <li className="mb-10 ml-10">
+          <span className="absolute flex items-center text-white justify-center w-12 h-12 bg-gradient-to-l from-purple-600 to-fuchsia-500 rounded-full -left-6 ring-8 ring-transparent ">
+            6
+          </span>
+          <h3 className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            Demo Day
+          </h3>
+          <p className="text-white text-base font-normal font-['Montserrat'] leading-7">
+            Teams get the opportunity to pitch their projects to judges.
+            <br />
+            The winner of the hackathon will also be announced on
+            <br />
+            this day
+          </p>
+          <div className="text-fuchsia-500 text-2xl font-bold font-['Montserrat']">
+            November 18, 2023
+          </div>
         </li>
       </ol>
     </section>

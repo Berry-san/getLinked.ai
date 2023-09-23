@@ -34,50 +34,51 @@ const Criteria = () => {
             </div>
             <div>
               <span className="text-pink text-base font-bold font-['Montserrat'] leading-7">
-                Innovation and Creativity
+                Functionality:
               </span>
               <span className="text-white text-sm font-normal font-['Montserrat'] leading-normal">
-                : Evaluate the uniqueness and creativity of the
+                {' '}
+                Assess how well the solution works. Does it perform its <br />
+                intended functions effectively and without major issues? Judges
+                would
                 <br />
-                solution. Consider whether it addresses a real-world problem in
-                a novel <br />
-                way or introduces innovative features.
+                consider the completeness and robustness of the solution.
               </span>
             </div>
             <div>
               <span className="text-pink text-base font-bold font-['Montserrat'] leading-7">
-                Innovation and Creativity
+                Impact and Relevance:{' '}
               </span>
               <span className="text-white text-sm font-normal font-['Montserrat'] leading-normal">
-                : Evaluate the uniqueness and creativity of the
-                <br />
-                solution. Consider whether it addresses a real-world problem in
-                a novel <br />
-                way or introduces innovative features.
+                Determine the potential impact of the solution <br />
+                in the real world. Does it address a significant problem, and is
+                it relevant <br />
+                to the target audience? Judges would assess the potential
+                social, <br />
+                economic, or environmental benefits.
               </span>
             </div>
             <div>
               <span className="text-pink text-base font-bold font-['Montserrat'] leading-7">
-                Innovation and Creativity
+                Technical Complexity:{' '}
               </span>
               <span className="text-white text-sm font-normal font-['Montserrat'] leading-normal">
-                : Evaluate the uniqueness and creativity of the
-                <br />
-                solution. Consider whether it addresses a real-world problem in
-                a novel <br />
-                way or introduces innovative features.
+                Evaluate the technical sophistication of the solution. <br />
+                Judges would consider the complexity of the code, the use of
+                advanced <br />
+                technologies or algorithms, and the scalability of the solution.
               </span>
             </div>
             <div>
               <span className="text-pink text-base font-bold font-['Montserrat'] leading-7">
-                Innovation and Creativity
+                Adherence to Hackathon Rules:{' '}
               </span>
               <span className="text-white text-sm font-normal font-['Montserrat'] leading-normal">
-                : Evaluate the uniqueness and creativity of the
-                <br />
-                solution. Consider whether it addresses a real-world problem in
-                a novel <br />
-                way or introduces innovative features.
+                Judges will Ensure that the team adhered <br />
+                to the rules and guidelines of the hackathon, including
+                deadlines, use of <br />
+                specific technologies or APIs, and any other
+                competition-specific requirements.
               </span>
             </div>
             <button className="text-white rounded w-44 h-14 bg-gradient-to-l from-purple-600 via-fuchsia-500 to-pink ">

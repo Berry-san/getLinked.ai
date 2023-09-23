@@ -61,36 +61,36 @@ const Hero = () => {
       <div className="grid grid-cols-2 px-10 lg:px-28 gap-10 pt-10">
         <div className="flex flex-col pt-10 lg:pt-28 col-span-2 lg:col-span-1 justify-center items-center lg:items-start space-y-5">
           <div className="flex flex-col lg:hidden">
-            <h2 className="text-2xl italic font-bold text-white font-montSerrat">
+            <h2 className="text-xl italic font-bold text-white font-montSerrat">
               Igniting a Revolution in HR Innovation
             </h2>{' '}
             <div className="flex justify-end">
               <img src={line} alt="" className="flex justify-end w-48" />
             </div>
           </div>
-          <div className="flex">
-            <img src={bulb} alt="" className="flex w-5 " />
-          </div>
-          <span className="font-sans font-bold text-white text-2xl xl:text-7xl">
+          {/* <div className="relative -ml-52">
+            <img src={bulb} alt="" className="flex w-12 h-12 -mb-10" />
+          </div> */}
+          <span className="font-sans font-bold text-white text-4xl xl:text-7xl">
             getlinked Tech
           </span>
           <div className="flex">
-            <span className="font-sans font-bold text-white text-2xl lg:text-7xl">
+            <span className="font-sans font-bold text-white text-4xl lg:text-7xl">
               Hackathon{' '}
             </span>
             <div className="flex">
-              <span className="font-sans font-bold text-fuchsia-500 text-2xl lg:text-7xl">
+              <span className="font-sans font-bold text-fuchsia-500 text-4xl lg:text-7xl">
                 1.0
               </span>
-              <img src={chain} alt="" className="w-8 lg:w-20 h-8 lg:h-20" />
-              <img src={spark} alt="" className="w-8 lg:w-20 h-8 lg:h-20" />
+              <img src={chain} alt="" className="w-10 lg:w-20 h-10 lg:h-20" />
+              <img src={spark} alt="" className="w-10 lg:w-20 h-10 lg:h-20" />
             </div>
           </div>
           <p className="text-xl font-normal leading-loose text-white font-montSerrat">
-            Participate in getlinked tech Hackathon 2023 stand <br />a chance to
-            win a Big prize
+            Participate in getlinked tech Hackathon 2023 stand a chance to win a
+            Big prize
           </p>
-          <button className="mt-10 text-white rounded w-44 h-14 bg-gradient-to-l from-purple-600 via-fuchsia-500 to-pink ">
+          <button className="mt-20 text-white rounded w-44 h-14 bg-gradient-to-l from-purple-600 via-fuchsia-500 to-pink ">
             Register
           </button>
           <div className="mt-20 font-mono text-6xl font-normal leading-10 text-white space-x-7 pb-10">
