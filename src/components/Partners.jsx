@@ -1,3 +1,10 @@
+import pic1 from '../assets/png/Liberty company logo white colour.png'
+import pic2 from '../assets/png/Liberty company logo white.png'
+import pic3 from '../assets/png/Paybox.png'
+import pic4 from '../assets/png/Vuzual Plus.png'
+import pic5 from '../assets/png/Winwise logo White colour 1.png'
+import pic6 from '../assets/png/wisper logo white.png'
+
 const Partners = () => {
   return (
     <section>
@@ -14,25 +21,22 @@ const Partners = () => {
         </div>
         <div className="grid grid-cols-3 gap-10 py-[2rem] lg:py-[9rem] px-[3rem] lg:px-[11rem] border rounded border-darkPink">
           <div className="flex items-center justify-center">
-            <img
-              src="/src/assets/png/Liberty company logo white colour.png"
-              alt=""
-            />
+            <img src={pic1} alt="" />
           </div>
           <div className="flex items-center justify-center">
-            <img src="/src/assets/png/Liberty company logo white.png" alt="" />
+            <img src={pic2} alt="" />
           </div>
           <div className="flex items-center justify-center">
-            <img src="/src/assets/png/Paybox.png" alt="" />
+            <img src={pic3} alt="" />
           </div>
           <div className="flex items-center justify-center">
-            <img src="/src/assets/png/Vuzual Plus.png" alt="" />
+            <img src={pic4} alt="" />
           </div>
           <div className="flex items-center justify-center">
-            <img src="/src/assets/png/Winwise logo White colour 1.png" alt="" />
+            <img src={pic5} alt="" />
           </div>
           <div className="flex items-center justify-center">
-            <img src="/src/assets/png/wisper logo white.png" alt="" />
+            <img src={pic6} alt="" />
           </div>
         </div>
       </div>
